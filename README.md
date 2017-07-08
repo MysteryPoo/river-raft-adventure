@@ -1,2 +1,2 @@
 # river-raft-adventure
-Minigame for mattandheidiswedding.party
+Minigame for https://mattandheidiswedding.party/
