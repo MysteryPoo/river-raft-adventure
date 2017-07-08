@@ -1,6 +1,5 @@
 /// @description Process high scores
 var scores;
-var _temp = async_load;
 if (ds_map_find_value(async_load, "id") == m_Get) {
 	if (ds_map_find_value(async_load, "status") == 0) {
 		var _result = ds_map_find_value(async_load, "result");
