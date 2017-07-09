@@ -10,3 +10,8 @@ m_HTTP = -1;
 /*
 	128, 224, 320, 416
 */
+// Window scale variables
+base_width = 512;
+base_height = 768;
+width = base_width;
+height = base_height;

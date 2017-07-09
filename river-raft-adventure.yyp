@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "d771d30d-4d95-4960-9750-b6eaf6e4c0e3",
+            "Value": {
+                "id": "5ac3eab8-bae2-4e41-995c-fc555129561d",
+                "resourcePath": "scripts\\scr_Resize\\scr_Resize.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "df0ea842-194a-467e-bb3d-f128e1376a64",
             "Value": {
                 "id": "c4fd7072-c987-4d7b-8351-1ffdc8716ef3",
@@ -584,7 +592,8 @@
         }
     ],
     "script_order": [
-        "2e5b0f90-4f94-4351-93ef-ffc7ffc647f4"
+        "2e5b0f90-4f94-4351-93ef-ffc7ffc647f4",
+        "d771d30d-4d95-4960-9750-b6eaf6e4c0e3"
     ],
     "tutorial": ""
 }
