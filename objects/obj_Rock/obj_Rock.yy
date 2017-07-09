@@ -6,7 +6,7 @@
     "eventList": [
         
     ],
-    "maskSpriteId": "73b0780f-d282-49f6-90aa-ea54e4de685a",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "8078d5eb-fbed-4e34-8252-87396195ea44",
     "persistent": false,
     "physicsAngularDamping": 0.1,
