@@ -1,16 +1,22 @@
 /// @description Move toward target position
 if(x < m_TargetX) {
-	if(abs(m_TargetX - x) > 5) {
+	if(abs(m_TargetX - x) > 10) {
 		hspeed = 5;
 		image_angle = -45;
+	} else if(abs(m_TargetX - x) > 5) {
+		hspeed = 5;
+		image_angle = -25;
 	} else if(abs(m_TargetX - x) > 1) {
 		hspeed = 1;
 		image_angle = -15;
 	}
 } else if(x > m_TargetX) {
-	if(abs(m_TargetX - x) > 5) {
+	if(abs(m_TargetX - x) > 10) {
 		hspeed = -5;
 		image_angle = 45;
+	} else if(abs(m_TargetX - x) > 5) {
+		hspeed = -5;
+		image_angle = 25;
 	} else if(abs(m_TargetX - x) > 1) {
 		hspeed = -1;
 		image_angle = 15;

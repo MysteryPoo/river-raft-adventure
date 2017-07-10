@@ -11,6 +11,9 @@ if(distance_to_object(obj_Raft) < 256) {
 	if(m_Occupant == noone && !m_Captured) {
 		m_Occupant = instance_create_layer(x, y, "Instances_FG", choose(obj_Dwarf, obj_Orc));
 	}
+	if(instance_exists(m_Occupant)) m_Occupant.visible = true;
+} else {
+	if(instance_exists(m_Occupant)) m_Occupant.visible = false;
 }
 
 // Boundary
