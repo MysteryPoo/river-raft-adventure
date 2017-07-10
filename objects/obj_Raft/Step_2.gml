@@ -61,9 +61,14 @@ if(instance_exists(m_Occupant)) {
 		if(m_Occupant.object_index == obj_Orc) {
 			var _orc = instance_create_layer(m_Occupant.x, m_Occupant.y, "Instances_FG", obj_Rafter);
 			_orc.sprite_index = spr_OrcHead;
-			_orc.alarm[0] = room_speed * 0.5;
+			_orc.alarm[0] = room_speed * 0.8;
 			_orc.direction = irandom_range(45, 135);
 			_orc.speed = 5;
+			var _dwarf = instance_create_layer(m_Occupant.x, m_Occupant.y, "Instances_FG", obj_Rafter);
+			_dwarf.sprite_index = spr_DwarfHead;
+			_dwarf.alarm[0] = room_speed * 0.5;
+			_dwarf.direction = _orc.direction + irandom_range(-3, 3);
+			_dwarf.speed = _orc.speed;
 		}
 		instance_destroy(m_Occupant);
 		m_Occupant = noone;
